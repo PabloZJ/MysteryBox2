@@ -1,0 +1,46 @@
+/* DynamicForm.css */
+
+/* Contenedor del formulario */
+.custom-form {
+    text-align: left; /* asegura que todo el contenido esté a la izquierda */
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Grupo de cada input */
+.custom-form-group {
+    margin-bottom: 1rem;
+}
+
+/* Labels del formulario */
+.custom-form-label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    text-align: left;
+}
+
+.custom-input {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.custom-input:focus {
+    border-color: #9a47a0;
+    box-shadow: 0 0 8px rgba(154, 71, 160, 0.3);
+    outline: none;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+    display: block;
+}
+
+.custom-input::placeholder {
+    text-align: left;
+}

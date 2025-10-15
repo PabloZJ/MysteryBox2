@@ -1,0 +1,20 @@
+.custom-info-card {
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.custom-info-title {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.custom-info-text {
+    font-size: 0.95rem;
+    color: #555;
+}

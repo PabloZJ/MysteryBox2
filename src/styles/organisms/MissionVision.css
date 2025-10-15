@@ -1,0 +1,22 @@
+.mission-vision-row {
+    margin-bottom: 2rem;
+}
+
+.mission-vision-card {
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-vision-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.mission-vision-card p {
+    color: #333;
+    line-height: 1.6;
+}

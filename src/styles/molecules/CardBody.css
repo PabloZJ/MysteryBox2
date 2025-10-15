@@ -1,0 +1,19 @@
+.custom-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-description {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.card-price {
+    font-weight: bold;
+    color: #6e6a1b;
+}

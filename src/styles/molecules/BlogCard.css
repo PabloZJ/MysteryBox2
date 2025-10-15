@@ -1,0 +1,19 @@
+.custom-blog-card {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.custom-image {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.custom-btnn {
+    font-weight: bold !important ;
+    background-color: #9a47a0 !important ;
+    border: none !important ;
+}
+
+.custom-btnn:hover {
+    background-color: #5b2760 !important ;
+}
